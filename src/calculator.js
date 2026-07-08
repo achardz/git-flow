@@ -7,7 +7,8 @@
  */
 
 function add(a, b) {
-  return a + b;
+  // Hotfix: coerce inputs so add("2", 3) returns 5, not "23".
+  return Number(a) + Number(b);
 }
 
 function subtract(a, b) {
