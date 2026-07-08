@@ -1,0 +1,10 @@
+{
+  "name": "git-flow-sample",
+  "version": "1.1.0",
+  "description": "A tiny calculator library used to demonstrate the Git Flow branching model",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "node test/calculator.test.js"
+  },
+  "license": "MIT"
+}
